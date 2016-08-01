@@ -6,7 +6,7 @@ Dropforms. Forms that are contained inside buttons.
 
 #Installation
 ### 1. npm install
-`npm install react-dropform` --save
+`npm install react-dropform --save`
 
 ### 2. In your component.jsx
 ```javascript
@@ -16,7 +16,7 @@ var component = React.createClass({
   render: function() {
     return (
       <div>
-        <DropForm open={false} title='Sign In' className='inline-block align-top'>
+        <DropForm open={false} title='Your Button Content'>
         { 
         // Add the form you want to create
         }
