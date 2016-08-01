@@ -9,6 +9,14 @@ Dropforms. Forms that are contained inside buttons.
 `npm install react-dropform` --save
 
 ### 2. In your component.jsx
+require `DropFrom` in the component you wish to use this in.
+`var DropForm = require('./dropform.jsx');`
+
+### 3. In your CSS
+include `dropform.css` to your project.
+`<link rel="stylesheet" href="./link/to/dropform.css">`
+
+# Usage
 ```javascript
 var DropForm = require('./dropform.jsx');
 
@@ -16,8 +24,11 @@ var component = React.createClass({
   render: function() {
     return (
       <div>
-        <DropForm open={false} title='Sign In' className='inline-block align-top'>
-        { 
+        <DropForm
+          open={false}
+          title='Sign In'
+          className='inline-block align-top'>
+        {
         // Add the form you want to create
         }
           <form>
@@ -31,7 +42,7 @@ var component = React.createClass({
             </fieldset>
             <button className='sharp-filled white-text' type='submit'>Submit</button>
           </form>
-          
+
         </DropForm>
       </div>
     );
@@ -39,5 +50,5 @@ var component = React.createClass({
 });
 ```
 
-### 3. In your CSS
-
+# Variables
+  `open` is `boolean #comment`
