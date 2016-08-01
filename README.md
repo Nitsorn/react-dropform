@@ -6,7 +6,7 @@ Dropforms. Forms that are contained inside buttons.
 
 #Installation
 ### 1. npm install
-`npm install react-dropform` --save
+`npm install react-dropform --save`
 
 ### 2. In your component.jsx
 require `DropFrom` in the component you wish to use this in.
