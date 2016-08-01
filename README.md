@@ -27,6 +27,7 @@ var component = React.createClass({
         <DropForm
           open={false}
           title='Sign In'
+          formStyle='default' // * optional
           className='inline-block align-top'>
         {
         // Add the form you want to create
