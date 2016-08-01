@@ -9,11 +9,11 @@ Dropforms. Forms that are contained inside buttons.
 `npm install react-dropform --save`
 
 ### 2. In your component.jsx
-require `DropFrom` in the component you wish to use this in.
+require `DropFrom` in the component you wish to use this in. <br />
 `var DropForm = require('./dropform.jsx');`
 
 ### 3. In your CSS
-include `dropform.css` to your project.
+include `dropform.css` to your project.  <br />
 `<link rel="stylesheet" href="./link/to/dropform.css">`
 
 # Usage
