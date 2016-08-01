@@ -51,4 +51,12 @@ var component = React.createClass({
 ```
 
 # Variables
-  `open` is `boolean #comment`
+```HTML
+  <DropForm
+    open={false}
+    title='Sign In'
+    className='inline-block align-top'>
+```
+
+
+  `open` is `boolean`
