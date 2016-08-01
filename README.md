@@ -57,6 +57,6 @@ var component = React.createClass({
     title='Sign In'
     className='inline-block align-top'>
 ```
-`open`: Whether or not the form is shown on initial render.
-`title`: Title of the button.
-`className`: Additional classes for the form container.
+`open`: Whether or not the form is shown on initial render. <br />
+`title`: Title of the button. <br />
+`className`: Additional classes for the form container. <br />
