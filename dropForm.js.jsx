@@ -44,7 +44,6 @@ var DropForm = React.createClass({
 
   getFullHeight: function(){
     var buttonHeight = this.state.buttonHeight;
-    // var formHeight = $(this.refs.dropform.childNodes[1]).outerHeight();
     var formHeight = this.refs.dropform.scrollHeight;
     this.setState({fullHeight: formHeight + 2});
   },
