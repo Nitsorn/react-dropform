@@ -18,7 +18,7 @@ include `dropform.css` to your project.  <br />
 
 # Usage
 ```javascript
-var DropForm = require('./dropform.jsx');
+var DropForm = require('dropform');
 
 var component = React.createClass({
   render: function() {
