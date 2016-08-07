@@ -30,7 +30,7 @@ var component = React.createClass({
           formStyle='default' // * optional
           className='inline-block align-top'>
         {
-        // Add the form you want to create
+        // Add the form you want to create. Example below.
         }
           <form>
             <fieldset>
